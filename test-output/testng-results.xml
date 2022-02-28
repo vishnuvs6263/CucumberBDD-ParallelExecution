@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-28T14:31:53 IST" name="Parallel-Android-Test-Suite" finished-at="2022-02-28T14:32:17 IST" duration-ms="23386">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.tests.TestRunner@47d9a273]" name="scenario" class="cucumber.tests.TestRunner"/>
+        <method signature="TestRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.tests.TestRunner@1ffaf86]" name="scenario" class="cucumber.tests.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-02-28T14:31:53 IST" name="emulator-5554" finished-at="2022-02-28T14:32:16 IST" duration-ms="23375">
+      <class name="cucumber.tests.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:cucumber.tests.TestRunner@47d9a273]" started-at="2022-02-28T14:31:53 IST" name="setUpClass" finished-at="2022-02-28T14:31:54 IST" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:cucumber.tests.TestRunner@47d9a273]" started-at="2022-02-28T14:31:54 IST" name="setup" finished-at="2022-02-28T14:32:10 IST" duration-ms="15476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.tests.TestRunner@47d9a273]" started-at="2022-02-28T14:32:10 IST" name="scenario" description="Run Cucumber Features." data-provider="scenarios" finished-at="2022-02-28T14:32:10 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login in to the IB application as retail customer and verify the profile details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login in to ERIBANK IB application as retail customer.]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:cucumber.tests.TestRunner@47d9a273]" started-at="2022-02-28T14:32:10 IST" name="teardown" finished-at="2022-02-28T14:32:13 IST" duration-ms="2999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.tests.TestRunner@47d9a273]" started-at="2022-02-28T14:32:13 IST" name="tearDownClass" finished-at="2022-02-28T14:32:16 IST" duration-ms="3576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.tests.TestRunner -->
+    </test> <!-- emulator-5554 -->
+    <test started-at="2022-02-28T14:31:53 IST" name="emulator-5556" finished-at="2022-02-28T14:32:17 IST" duration-ms="23385">
+      <class name="cucumber.tests.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:cucumber.tests.TestRunner@1ffaf86]" started-at="2022-02-28T14:31:53 IST" name="setUpClass" finished-at="2022-02-28T14:31:54 IST" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:cucumber.tests.TestRunner@1ffaf86]" started-at="2022-02-28T14:31:54 IST" name="setup" finished-at="2022-02-28T14:32:08 IST" duration-ms="13938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.tests.TestRunner@1ffaf86]" started-at="2022-02-28T14:32:08 IST" name="scenario" description="Run Cucumber Features." data-provider="scenarios" finished-at="2022-02-28T14:32:10 IST" duration-ms="1331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login in to the IB application as retail customer and verify the profile details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login in to ERIBANK IB application as retail customer.]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:cucumber.tests.TestRunner@1ffaf86]" started-at="2022-02-28T14:32:10 IST" name="teardown" finished-at="2022-02-28T14:32:13 IST" duration-ms="3000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.tests.TestRunner@1ffaf86]" started-at="2022-02-28T14:32:13 IST" name="tearDownClass" finished-at="2022-02-28T14:32:17 IST" duration-ms="3784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.tests.TestRunner -->
+    </test> <!-- emulator-5556 -->
+  </suite> <!-- Parallel-Android-Test-Suite -->
+</testng-results>
